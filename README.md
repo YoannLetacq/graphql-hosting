@@ -5,7 +5,7 @@ This project is a profile page built using GraphQL. It allows you to query your 
 ### Hosting 
 You can find the hosting site at this adress:
 ```bash
-
+https://main--yoso-graphql.netlify.app/index.html
 ```
 
 
