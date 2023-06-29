@@ -1,5 +1,5 @@
 # GraphQL Profile Page
-
+EXTREMLY SIMPLE CSS BE AWARE
 This project is a profile page built using GraphQL. It allows you to query your own data from the GraphQL endpoint provided by the platform (https://zone01normandie.org/api/graphql-engine/v1/graphql) and display it on your profile page.
 
 ### Hosting 
