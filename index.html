@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-form" style="display: block;">
+        <h2>Login</h2>
+        <form onsubmit="login(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+
+            <input type="submit" value="Login">
+
+            <!-- Added error message div here -->
+            <div id="error-msg" style="display: none; color: red;"></div>
+        </form>
+    </div>
+
+
+    <script type="module" src="js/login.js"></script>
+    <script type="module" src="js/profile.js"></script>
+    <script type="module" src="js/api.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/profile.js"></script>
+
+</body>
+</html>

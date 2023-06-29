@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="profile" style="display: block;">
+        <h2 id="user-main-title"style=" font-size: 40px; ">Hello </h2>
+        <div id="stats-secction" style="border: 3px solid black; width: fit-content; padding: 3px;">
+            <p>FirstName: <span id="profile-firstname"></span></p>
+            <p>LastName: <span id="profile-lastname"></span></p>
+            <p>Username: <span id="profile-username"></span></p>
+            <p>ratio d'audit: <span id="profile-auditRatio"></span></p>
+            <!-- xp for the user -->
+            <p>XP: <span id="profile-xp"></span></p>
+        </div>
+        
+        
+        
+        <!-- graph attempt per exercise -->
+        <div id="graph-part-container">
+
+            <div id="graph-container" style="display: flex; flex-direction: row; border: 3px solid black;margin: 5px;justify-content: center ;">
+                <div id="alignment-row-block">
+
+                    <p>Select for wich event you want to see your trials: <span id="selector-map"></span></p>
+                    <div id="button-alignment-container" style="display: flex; flex-direction: row;">
+                        <span>
+                            <input type="radio" name="course" id="radioGo" >
+                            <label for="radioGo">Piscine Go</label>
+                        </span><br>
+                        <span>
+                            <input type="radio" name="course" id="radioJs" >
+                            <label for="radioJs">Piscine Js</label>
+                        </span><br>
+                        <span>
+                            <input type="radio" name="course" id="radioRust">
+                            <label for="radioRust">Piscine Rust</label>
+                        </span><br>
+                        <span>
+                            <input type="radio" name="course" id="radioCheckpoint">
+                            <label for="radioCheckpoint">Formation checkpoint</label>
+                        </span><br>
+                    </div>
+                    
+                    <div id="chart" style="width: 600px; height: 500px; overflow: auto;"></div>
+                </div>
+                
+                <!-- graph pass fail ratio -->
+                <div id="pass-fail-container">
+                    <p>Look you pass and fails for all your exercise: <span id="selector-map"></span></p>
+                    <div id="Piechart" style="width: 500px; height: 500px; overflow: none;"></div>
+                </div>
+            </div>
+        </div>
+        <div id="logout-block"></div>
+        <p>Click here to logout:<span id="selector-map"></span></p>
+        <button id="logout-button" onclick="handleLogout()">Logout</button>
+     
+        </div>
+        
+    </div>
+
+    <!-- module  -->
+    <script type="module" src="js/login.js"></script>
+    <script type="module" src="js/profile.js"></script>
+    <script type="module" src="js/api.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/profile.js"></script>
+</body>
+</html>
