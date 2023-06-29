@@ -6,6 +6,7 @@ This project is a profile page built using GraphQL. It allows you to query your 
 You can find the hosting site at this adress:
 ```bash
 
+```
 
 
 ## Features
