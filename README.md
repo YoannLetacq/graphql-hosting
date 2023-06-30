@@ -43,6 +43,9 @@ Feel free to customize the project according to your needs by adding additional 
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
 
+## Authors
+This project was made by Yoann "YoannLetacq" Letacq.
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
